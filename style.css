@@ -1,0 +1,194 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.bloc-border {
+  height: 336px;
+  width: 727px;
+  border: 1px solid black;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+#number,
+#number::before,
+#number::after {
+  display: inline-block;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+  font-size: 21px;
+  color: #6a737c;
+}
+#number {
+  margin: 20px 10px;
+  position: relative;
+  cursor: pointer;
+}
+#number::before {
+  content: "";
+  position: absolute;
+  background-image: url(https://image.flaticon.com/icons/svg/626/626079.svg);
+  top: -30px;
+}
+#number::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://image.flaticon.com/icons/svg/626/626021.svg);
+  top: 30px;
+}
+
+#top {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 8px;
+  left: 70px;
+}
+.bloc-code {
+  height: 120px;
+  width: 660px;
+  border: none;
+  background-color: #686a6b31;
+  padding-left: 10px;
+  position: absolute;
+  left: 53px;
+  top: 35px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    sans-serif;
+  font-size: 13px;
+}
+
+#blue {
+  color: #101094;
+}
+
+#red {
+  color: #7d2727;
+}
+
+#share {
+  position: relative;
+  bottom: -40px;
+  left: -24px;
+  font-size: 13px;
+  color: #6a737c;
+  text-decoration: none;
+}
+
+#improve {
+  position: relative;
+  bottom: -40px;
+  left: -21px;
+  font-size: 13px;
+  color: #6a737c;
+  text-decoration: none;
+}
+
+#jul {
+  position: relative;
+  bottom: -40px;
+  right: -25px;
+  font-size: 13px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#comuniti {
+  position: relative;
+  bottom: -40px;
+  right: -85px;
+  font-size: 13px;
+  color: #6a737c;
+  text-decoration: none;
+}
+
+#revs {
+  position: relative;
+  bottom: -60px;
+  right: 35px;
+  font-size: 13px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#mat {
+  position: relative;
+  bottom: -61px;
+  right: -466px;
+  font-size: 13px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+hr {
+  position: relative;
+  width: 660px;
+  right: 13px;
+  bottom: -59px;
+  color: #4e4e4e38;
+  opacity: 0.3;
+}
+
+#tu {
+  position: relative;
+  font-size: 13px;
+  color: #6a737c;
+  top: 55px;
+  right: 21px;
+}
+
+#on {
+  position: absolute;
+  bottom: -115px;
+  left: 0px;
+}
+
+#mahdi {
+  position: absolute;
+  left: 160px;
+  bottom: -115px;
+  font-size: 13px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#nov {
+  position: relative;
+  font-size: 13px;
+  color: #6a737c;
+  top: 101px;
+  right: 26px;
+}
+
+#line {
+  position: relative;
+  width: 660px;
+  right: 13px;
+  bottom: -94px;
+  color: #4e4e4e38;
+  opacity: 0.3;
+}
+
+#comment {
+  position: relative;
+  font-size: 13px;
+  color: #6a737c;
+  top: 100px;
+  right: 33px;
+}
+
+#end {
+  position: relative;
+  width: 660px;
+  right: 13px;
+  bottom: -94px;
+  color: #4e4e4e38;
+  opacity: 0.3;
+}
